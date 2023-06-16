@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B7ABA9D7-75B0-4779-9125-7BAF59B12137}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{92898B4E-8F9E-4DFB-8F9C-ECACB5D30F09}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{FCC9CC57-B820-4C67-A02E-7FA17120FA1C}">
+								<Image FileName="-1602141899" Left="-9" Top="-9" Right="1929" Bottom="1051" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHomeUniverse" Key="{EDCC27AB-7DC0-4D57-AF5C-3B28C945338D}">
+								<Image FileName="-1602141899" Left="0" Top="88" Right="1920" Bottom="1041" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerSignIn" Key="{66CF933D-DD61-4171-B71B-D35A15D9C300}">
+										<Image FileName="-1602141899" Left="0" Top="88" Right="1899" Bottom="183" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSignIn" Key="{672727F4-D9E1-4107-ACC2-FFA15EF61A2D}">
+										<Image FileName="-1602141899" Left="124" Top="98" Right="1774" Bottom="173" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignUp" Key="{292F9FD1-D873-423A-99C9-AFB96A41CD08}">
+										<Image FileName="-1602141899" Left="1649" Top="113" Right="1760" Bottom="159" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Sign up&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignUp" Key="{751C31C7-443E-419C-B088-7D3CC4234A7F}">
+										<Image FileName="-1602141899" Left="1649" Top="113" Right="1760" Bottom="159" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign up&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;header__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{054AD1C6-18DB-4642-9EB5-B4E49376B5FB}">
+										<Image FileName="-1315949626" Left="1540" Top="113" Right="1638" Bottom="157" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{0E921A62-F592-4F5E-98AE-F939FEDB29AB}">
+										<Image FileName="-1315949626" Left="1540" Top="113" Right="1638" Bottom="157" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;header__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerNewPost" Key="{DAAA0071-29A5-474E-AC15-0EE2BCAC9C5D}">
+										<Image FileName="-847849732" Left="0" Top="88" Right="1920" Bottom="183" />
+										<Selectors>
+											<Selector>
+												<Value Value="header[contains(., &apos;New post&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNewPost" Key="{3342B097-3DCF-42EF-BA9A-96A01F141017}">
+										<Image FileName="-847849732" Left="135" Top="98" Right="1785" Bottom="173" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;New post&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewPost" Key="{5512C02C-606F-4B4F-AE4F-6544325CB884}">
+										<Image FileName="-847849732" Left="1570" Top="113" Right="1700" Bottom="159" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;New post&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNewPost" Key="{BB9FC049-7BF3-4940-88D5-34710F495FF9}">
+										<Image FileName="-847849732" Left="1570" Top="113" Right="1700" Bottom="159" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;New post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;header__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{5F1614B9-C0DC-4B63-A1B1-BA16E9923E04}">
+										<Image FileName="385943407" Left="900" Top="671" Right="1020" Bottom="715" />
+										<TypeInfo Item0="{6E54DD72-6782-4D32-B28A-7690DA4509C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;alert__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkReadMore" Key="{B3E3330D-98CC-4EBF-BB6D-81EDABA38740}">
+										<Image FileName="-478279373" Left="156" Top="354" Right="329" Bottom="398" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Read more&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a[contains(@class, &apos;card__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignUp" Key="{E22CD433-50FB-45D7-9A02-C221753B89AC}">
+								<Image FileName="-1602141899" Left="0" Top="88" Right="1920" Bottom="1041" />
+								<TypeInfo Item0="{5C98E96E-155D-458C-BBCB-F902B902E9F3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/sign-up" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSignUp" Key="{829388D4-494C-4BA0-A61A-91EE9B6A34F5}">
+										<Image FileName="1253382672" Left="710" Top="299" Right="1210" Bottom="905" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign Up&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;sign-up-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{D50228ED-4282-469D-9C69-FAB87F126D8A}">
+										<Image FileName="1253382672" Left="731" Top="838" Right="1189" Bottom="884" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{DCA89042-B998-4596-8459-4F163D63DCC3}">
+										<Image FileName="-991964125" Left="810" Top="109" Right="1110" Bottom="279" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{0AF2F0A4-D2BB-4DCD-8278-9BF2DBD6AE30}">
+										<Image FileName="-991964125" Left="810" Top="119" Right="1110" Bottom="269" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUniverse" Key="{7ACE5F8F-6696-4CF3-95F8-35F3E49F5160}">
+										<Image FileName="-991964125" Left="810" Top="119" Right="1110" Bottom="269" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;logo.png&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;logo__img&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignIn" Key="{F49B5740-68C6-4745-BDD1-FACC95D8D9EC}">
+								<Image FileName="-1602141899" Left="0" Top="88" Right="1920" Bottom="1041" />
+								<TypeInfo Item0="{5C98E96E-155D-458C-BBCB-F902B902E9F3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/sign-in" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSignIn" Key="{7CE2416F-1CE8-4869-A872-81EEA2D32894}">
+										<Image FileName="-1236370498" Left="710" Top="360" Right="1210" Bottom="844" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;sign-in-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmail" Key="{2D43A2DD-CF39-45F9-A330-493E59DF1A44}">
+										<Image FileName="-1236370498" Left="731" Top="466" Right="1189" Bottom="507" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#sign-in__email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{B4DF47F0-9AB0-43D7-B928-25BC21763D38}">
+										<Image FileName="-536301164" Left="731" Top="542" Right="1189" Bottom="583" />
+										<TypeInfo Item0="{ADC25AF4-6018-42A1-ABA1-D8BA5F326FC6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#sign-in__password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{F4146F3C-0881-4C6C-892E-D7D75508AC8D}">
+										<Image FileName="891424720" Left="731" Top="633" Right="1189" Bottom="677" />
+										<TypeInfo Item0="{6E54DD72-6782-4D32-B28A-7690DA4509C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;form__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{74A7B0BB-1211-4DC4-A7BB-39762BC6606A}">
+										<Image FileName="-1151643017" Left="900" Top="690" Right="1020" Bottom="734" />
+										<TypeInfo Item0="{6E54DD72-6782-4D32-B28A-7690DA4509C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;alert__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{CE280294-4B4D-4019-8CF0-B8B042B75316}">
+										<Image FileName="-2009199504" Left="1179" Top="377" Right="1222" Bottom="421" />
+										<TypeInfo Item0="{6E54DD72-6782-4D32-B28A-7690DA4509C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;alert__close-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCreate" Key="{C739536C-DF2F-4A86-AA47-BAC704ADD36F}">
+								<TypeInfo Item0="{5C98E96E-155D-458C-BBCB-F902B902E9F3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://127.0.0.1:7000/posts/create" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formCancel" Key="{DE606FD5-B9A0-4ED2-A3C5-4914EDCBC1A5}">
+										<Image FileName="-1898148955" Left="460" Top="203" Right="1460" Bottom="413" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Cancel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;posts&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;post-creating-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{5E8F6513-6767-4A45-8225-B5D3F1CA9A8C}">
+										<Image FileName="-1898148955" Left="481" Top="224" Right="1439" Bottom="281" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;post-form__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form/div/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{E920BAF8-31FF-4A1C-8720-BE0FCA5944A0}">
+										<Image FileName="1217290310" Left="481" Top="291" Right="1439" Bottom="328" />
+										<TypeInfo Item0="{F5BE817A-DBB5-40E3-A0C4-B313FE253418}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;post-form__description&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPost" Key="{F3767A71-D163-4353-8C62-A6995FFD927F}">
+										<Image FileName="315123054" Left="1363" Top="348" Right="1439" Bottom="392" />
+										<TypeInfo Item0="{6E54DD72-6782-4D32-B28A-7690DA4509C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;post-form__button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div/form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{AED21ECA-7661-466D-B343-1BED13A2CDE2}">
+								<Image FileName="-1428127228" Left="-9" Top="-9" Right="1929" Bottom="1051" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{3E33DB77-45BC-454F-A525-A6C68C383CB1}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{75524886-6B25-40A2-BC43-9E762BE7357D}">
+								<Image FileName="777716480" Left="0" Top="0" Right="1920" Bottom="38" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{ECB369A5-EB02-48A7-9BAB-75BFE4C89F4F}">
+										<Image FileName="777716480" Left="88" Top="0" Right="1351" Bottom="38" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{1CA36306-8BBE-4D41-95CA-C72DFB75725D}">
+												<Image FileName="777716480" Left="90" Top="0" Right="1351" Bottom="38" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Работающие приложения" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{38721042-A08B-4D4C-BC6C-72AE7F7201BC}">
+														<Image FileName="777716480" Left="90" Top="0" Right="1351" Bottom="38" />
+														<TypeInfo Item0="{FEA20852-FD82-4959-A948-811EF9D6671A}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Работающие приложения" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="TrayNotifyWnd" Key="{DA1743EF-FD14-47B9-806B-D4017BDCEF41}">
+										<Image FileName="-218351945" Left="1611" Top="0" Right="1920" Bottom="38" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TrayNotifyWnd" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TrayInputIndicatorWClass" Key="{8D63E801-13AF-4F32-8DBD-BB45595B85EB}">
+												<Image FileName="-218351945" Left="1731" Top="0" Right="1776" Bottom="38" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TrayInputIndicatorWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Индикатор ввода в области уведомлений" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="InputIndicatorButton" Key="{A42A8087-0B96-40AC-AAC4-7EE45D92344C}">
+														<Image FileName="-218351945" Left="1731" Top="0" Right="1776" Bottom="38" />
+														<TypeInfo Item0="{FEA20852-FD82-4959-A948-811EF9D6671A}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="InputIndicatorButton" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_InputSwitchTopLevelWindow" Key="{E1312D2C-0B52-47E1-960C-07864F084D91}">
+								<Image FileName="-1105757360" Left="0" Top="0" Right="375" Bottom="389" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_InputSwitchTopLevelWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Input Flyout" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NativeHWNDHost" Key="{32F7A89A-CA90-4257-A575-B248453F963F}">
+										<Image FileName="-1105757360" Left="0" Top="0" Right="375" Bottom="389" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NativeHWNDHost" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Input Flyout" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Input_Flyout" Key="{40596E72-3BD2-465E-934D-E07359A4ABF0}">
+												<Image FileName="-1105757360" Left="0" Top="0" Right="375" Bottom="389" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="TouchHWNDElement" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="панель" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Input_Flyout" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Input_Flyout" Key="{A66B0FEC-4697-4EA4-B487-A42C3E4C669B}">
+														<Image FileName="-1105757360" Left="0" Top="0" Right="375" Bottom="389" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="InputSwitchRoot" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="список" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Input_Flyout" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ModeTileScrollViewer" Key="{BE07E516-52DC-44CA-8CB8-8AABB5A9C128}">
+																<Image FileName="-1105757360" Left="0" Top="6" Right="375" Bottom="310" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="DirectUI" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="TouchScrollViewer" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="панель" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="ModeTileScrollViewer" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Item" Key="{66743E5E-B73A-4EFC-B483-C71B1880D6EC}">
+																		<Image FileName="-1105757360" Left="0" Top="6" Right="375" Bottom="310" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="Element" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="панель" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Переключение_режима_ввода_текста" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Item" Key="{FB06782B-C55D-46EE-873D-AFCC5B83F646}">
+																				<Image FileName="-1105757360" Left="0" Top="82" Right="375" Bottom="158" />
+																				<TypeInfo Item0="{1D4F1741-5D08-4F56-AD07-6A4D18BC8FDA}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="ModeTile" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="элемент списка" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Украинский_Украинская_клавиатура" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{92898B4E-8F9E-4DFB-8F9C-ECACB5D30F09}">
+			<Child Name="BrowserWindow" Owner="{FCC9CC57-B820-4C67-A02E-7FA17120FA1C}" />
+			<Child Name="pageHomeUniverse" Owner="{EDCC27AB-7DC0-4D57-AF5C-3B28C945338D}">
+				<Child Name="headerSignIn" Owner="{66CF933D-DD61-4171-B71B-D35A15D9C300}">
+					<Child Name="navSignIn" Owner="{672727F4-D9E1-4107-ACC2-FFA15EF61A2D}">
+						<Child Name="textnodeSignUp" Owner="{292F9FD1-D873-423A-99C9-AFB96A41CD08}">
+							<Child Name="linkSignUp" Owner="{751C31C7-443E-419C-B088-7D3CC4234A7F}" />
+						</Child>
+						<Child Name="textnodeSignIn" Owner="{054AD1C6-18DB-4642-9EB5-B4E49376B5FB}">
+							<Child Name="linkSignIn" Owner="{0E921A62-F592-4F5E-98AE-F939FEDB29AB}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="headerNewPost" Owner="{DAAA0071-29A5-474E-AC15-0EE2BCAC9C5D}">
+					<Child Name="navNewPost" Owner="{3342B097-3DCF-42EF-BA9A-96A01F141017}">
+						<Child Name="textnodeNewPost" Owner="{5512C02C-606F-4B4F-AE4F-6544325CB884}">
+							<Child Name="linkNewPost" Owner="{BB9FC049-7BF3-4940-88D5-34710F495FF9}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="buttonOk" Owner="{5F1614B9-C0DC-4B63-A1B1-BA16E9923E04}" />
+				<Child Name="linkReadMore" Owner="{B3E3330D-98CC-4EBF-BB6D-81EDABA38740}" />
+			</Child>
+			<Child Name="pageSignUp" Owner="{E22CD433-50FB-45D7-9A02-C221753B89AC}">
+				<Child Name="formSignUp" Owner="{829388D4-494C-4BA0-A61A-91EE9B6A34F5}">
+					<Child Name="linkSignIn" Owner="{D50228ED-4282-469D-9C69-FAB87F126D8A}" />
+				</Child>
+				<Child Name="header" Owner="{DCA89042-B998-4596-8459-4F163D63DCC3}">
+					<Child Name="link" Owner="{0AF2F0A4-D2BB-4DCD-8278-9BF2DBD6AE30}">
+						<Child Name="imageUniverse" Owner="{7ACE5F8F-6696-4CF3-95F8-35F3E49F5160}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSignIn" Owner="{F49B5740-68C6-4745-BDD1-FACC95D8D9EC}">
+				<Child Name="formSignIn" Owner="{7CE2416F-1CE8-4869-A872-81EEA2D32894}">
+					<Child Name="emailinputEmail" Owner="{2D43A2DD-CF39-45F9-A330-493E59DF1A44}" />
+					<Child Name="passwordboxPassword" Owner="{B4DF47F0-9AB0-43D7-B928-25BC21763D38}" />
+					<Child Name="buttonSignIn" Owner="{F4146F3C-0881-4C6C-892E-D7D75508AC8D}" />
+				</Child>
+				<Child Name="buttonOk" Owner="{74A7B0BB-1211-4DC4-A7BB-39762BC6606A}" />
+				<Child Name="button" Owner="{CE280294-4B4D-4019-8CF0-B8B042B75316}" />
+			</Child>
+			<Child Name="pageCreate" Owner="{C739536C-DF2F-4A86-AA47-BAC704ADD36F}">
+				<Child Name="formCancel" Owner="{DE606FD5-B9A0-4ED2-A3C5-4914EDCBC1A5}">
+					<Child Name="textnode" Owner="{5E8F6513-6767-4A45-8225-B5D3F1CA9A8C}" />
+					<Child Name="textnode2" Owner="{E920BAF8-31FF-4A1C-8720-BE0FCA5944A0}" />
+					<Child Name="buttonPost" Owner="{F3767A71-D163-4353-8C62-A6995FFD927F}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{AED21ECA-7661-466D-B343-1BED13A2CDE2}" />
+		</Child>
+		<Child Name="explorer" Owner="{3E33DB77-45BC-454F-A525-A6C68C383CB1}">
+			<Child Name="wndShell_TrayWnd" Owner="{75524886-6B25-40A2-BC43-9E762BE7357D}">
+				<Child Name="ReBarWindow32" Owner="{ECB369A5-EB02-48A7-9BAB-75BFE4C89F4F}">
+					<Child Name="MSTaskSwWClass" Owner="{1CA36306-8BBE-4D41-95CA-C72DFB75725D}">
+						<Child Name="MSTaskListWClass" Owner="{38721042-A08B-4D4C-BC6C-72AE7F7201BC}" />
+					</Child>
+				</Child>
+				<Child Name="TrayNotifyWnd" Owner="{DA1743EF-FD14-47B9-806B-D4017BDCEF41}">
+					<Child Name="TrayInputIndicatorWClass" Owner="{8D63E801-13AF-4F32-8DBD-BB45595B85EB}">
+						<Child Name="InputIndicatorButton" Owner="{A42A8087-0B96-40AC-AAC4-7EE45D92344C}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndShell_InputSwitchTopLevelWindow" Owner="{E1312D2C-0B52-47E1-960C-07864F084D91}">
+				<Child Name="NativeHWNDHost" Owner="{32F7A89A-CA90-4257-A575-B248453F963F}">
+					<Child Name="Input_Flyout" Owner="{40596E72-3BD2-465E-934D-E07359A4ABF0}">
+						<Child Name="Input_Flyout" Owner="{A66B0FEC-4697-4EA4-B487-A42C3E4C669B}">
+							<Child Name="ModeTileScrollViewer" Owner="{BE07E516-52DC-44CA-8CB8-8AABB5A9C128}">
+								<Child Name="Item" Owner="{66743E5E-B73A-4EFC-B483-C71B1880D6EC}">
+									<Child Name="Item" Owner="{FB06782B-C55D-46EE-873D-AFCC5B83F646}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
